@@ -2,37 +2,57 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+:root {
+  --main_color: #ffa600 ;
+  --main_color_opacity: #ffa60093 ;
+  --main_color2: #ff8c00 ;
+  --sec_color: #F6F4F0 ;
+  
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.dark
+{
+  background-color: #1f1f1f ;
+  color: #F6F4F0;
+  
+}
+.light
+{
+  background-color: #F6F4F0 ;
+  color: #1f1f1f;
+}
+.dark_svg
+{
+  fill: #F6F4F0;
+  
+}
+.light_svg
+{
+  fill: #1f1f1f;
+}
+.main_color
+{
+  color: var(--main_color);
+  fill: var(--main_color);
+}
+.App-Background{
+  background-color: var(--main_color);
+}
+.En{
+  font-family: Futura,Trebuchet MS,Arial,sans-serif;
+}
+.Ar{
+  font-family: "Cairo";
+}
+a:hover{
+  color: var(--main_color)
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.text-start{
+  text-align: start !important
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
