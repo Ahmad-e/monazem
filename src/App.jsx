@@ -58,7 +58,7 @@ function App() {
       
         <ConfigProvider
           theme={{
-            algorithm: mode==="dark" ? theme.darkAlgorithm : theme.compactAlgorithm
+            algorithm: mode==="dark" ? theme.darkAlgorithm : theme.defaultAlgorithm
           }}
           >
           <BrowserRouter>

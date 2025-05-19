@@ -13,6 +13,17 @@ export default function App(){
         });
       };
 
+
+      const downloadFiles = () => {
+        window.open("https://almonazim.com/المنظم.apk", '_blank'); // فتح الرابط الأول
+    console.log(1)
+        // إضافة تأخير قبل فتح الرابط الثاني
+        setTimeout(() => {
+           window.open("https://almonazim.com/المنظم_فواتير.apk", '_blank'); // فتح الرابط الثاني
+           console.log(2)
+        }, 4000);
+    };
+
     return(
         <div>
             {contextHolder}
@@ -34,7 +45,7 @@ export default function App(){
                         
                         
                         <div class="flex justify-center my-10">
-                            <div onClick={()=>window.location.href=("https://almonazim.com/المنظم.apk")  } class="border-app flex items-center border w-auto rounded-lg px-4 py-2 w-52 mx-2">
+                            <div onClick={()=>downloadFiles() } class="border-app flex items-center border w-auto rounded-lg px-4 py-2 w-52 mx-2">
                                 <img src="https://cdn-icons-png.flaticon.com/512/888/888857.png" class="w-7 md:w-8" />
                                 <div class="text-left ml-3">
                                     <p class='text-xs text-gray-900'>Download on </p>

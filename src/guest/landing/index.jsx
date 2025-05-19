@@ -25,7 +25,16 @@ export default function App(){
     const mode = useSelector((state) => state.mode);
 
 
-
+    const downloadFiles = () => {
+        window.open("https://almonazim.com/المنظم.apk", '_blank'); // فتح الرابط الأول
+    console.log(1)
+        // إضافة تأخير قبل فتح الرابط الثاني
+        setTimeout(() => {
+           window.open("https://almonazim.com/المنظم_فواتير.apk", '_blank'); // فتح الرابط الثاني
+           console.log(2)
+        }, 4000);
+    };
+    
     
     return(
         <Container>
@@ -42,7 +51,7 @@ export default function App(){
                             {t("text_landing_2")}
                         </p>
                         <div>
-                            <Button href="https://almonazim.com/المنظم.apk" text={t("download_app_now")} />
+                            <Button onClick={downloadFiles} text={t("download_app_now")} />
                         
                         </div>
                     </div>
@@ -105,7 +114,7 @@ export default function App(){
             
             <Row className='justify-center py-10 pb-24'>
                 <Col lg={12} xs={12} className='phone-none' >
-                <Carousel dotPosition={"right"} autoplay  >
+                <Carousel dotPosition={"right"} autoplay className='Ar'  >
                 <div>
                     <Container >
                         <Row className='justify-center'>
