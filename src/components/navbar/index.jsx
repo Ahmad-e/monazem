@@ -26,11 +26,14 @@ function OffcanvasExample() {
   const expand = 'md'
   return (
     <>
-        <Navbar bg={mode} data-bs-theme={mode} key={expand} expand={expand} className="bg-body-tertiary ">
+        <Navbar bg={mode} data-bs-theme={mode} key={expand} expand={expand} className="bg-body-tertiary " dir={lang==="Ar" ? ("rtl") :("ltr") } >
           <Container fluid>
             <Navbar.Brand href="#">
               <img src={LOGO} className='logo_img' />
             </Navbar.Brand>
+
+
+            
             <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
             <Navbar.Offcanvas
             bg={mode} data-bs-theme={mode}
@@ -44,8 +47,16 @@ function OffcanvasExample() {
                 </Offcanvas.Title>
               </Offcanvas.Header>
               <Offcanvas.Body>
-                
-               
+              <Nav>
+                <Nav.Link href="#Contact_us"  className={lang+ " px-3 pt-2.5"}>
+                  {t("Contact_us")} 
+                </Nav.Link>
+
+                <Nav.Link href='privacy-policy' className={lang+ " px-3 pt-2.5"}>
+                  {t("private_policy")} 
+                </Nav.Link>
+              </Nav>
+                            
                 <Setting />
                
               </Offcanvas.Body>

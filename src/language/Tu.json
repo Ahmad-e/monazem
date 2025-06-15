@@ -38,5 +38,23 @@
     "have_acc": "Zaten bir hesabınız varsa, gidebilirsiniz",
     "un_have_acc": "Bir hesabınız yoksa, gidebilirsiniz",
     "our_services": "Hizmetlerimiz",
-    "err_IOS":"Uygulama şu anda iOS'ta mevcut değil. "
+    "err_IOS":"Uygulama şu anda iOS'ta mevcut değil. ",
+
+    "private_policy": "Gizlilik Politikası",
+    "private_policy_text": "In Monazim , gizliliğinizi ve kişisel verilerinizi korumaya kararlıyız. Bu gizlilik politikası, platformumuzu kullanırken sağladığınız bilgilerin nasıl toplandığını, kullanıldığını ve korunduğunu size bildirmeyi amaçlamaktadır.",
+    "private_policy_p_1": "Topladığımız bilgiler",
+    "private_policy_text_1": "Platformu kullandığınızda, adınız, e-posta adresiniz ve telefon numaranız gibi kişisel bilgileri ve hesap ayrıntıları ile finansal işlemler gibi finansal bilgileri topluyoruz.",
+    "private_policy_p_2": "Bilgileri nasıl kullanıyoruz",
+    "private_policy_text_2": "Topladığımız bilgileri hizmetlerimizi sağlamak ve deneyiminizi geliştirmek, hesabınız veya hizmetlerimiz hakkında güncellemeler göndermek ve kullanım analizleri yaparak platformu geliştirmek için kullanıyoruz. Verileri üçüncü taraflarla paylaşmıyoruz.",
+    "private_policy_p_3": "Veri koruma",
+    "private_policy_text_3": "Verilerinizin güvenliğini ciddiye alıyoruz. Bilgilerinizi yetkisiz erişim veya kötüye kullanımdan korumak için gelişmiş güvenlik teknolojileri kullanıyoruz.",
+    "private_policy_p_4": "Bilgilerin paylaşılması",
+    "private_policy_text_4": "Kişisel bilgilerinizi izniniz olmadan hiçbir üçüncü tarafla paylaşmayacağız, yalnızca geçerli yasaların gerektirdiği durumlarda veya haklarımızı korumak için.",
+    "private_policy_p_5": "Haklarınız",
+    "private_policy_text_5": "Kişisel bilgilerinize erişme, düzeltme veya silme hakkına sahipsiniz. Bu hakları kullanmak için bizimle iletişime geçebilirsiniz.",
+    "private_policy_p_6": "Al Monazim kullanılması yasaktır.",
+    "private_policy_text_6": "Faizli işlemleri veya ahlaka, İslami hukuka veya yasalara aykırı hizmetleri veya ürünleri ifade eden verilerin, metinlerin ve değerlerin depolanması ve girilmesi yasaktır; bu durum, kullanıcının platformdan yasaklanması, aboneliğinin iptal edilmesi ve siteyi kullanmasının engellenmesiyle sonuçlanır.",
+    "private_policy_p_7": "Elektronik ödeme hakkında",
+    "private_policy_text_7": "Her kullanıcıya sınırlı özelliklerle geçici bir ücretsiz deneme süresi verilir ve ücretli hizmetlerimizi satın almak için teknik destekle iletişime geçilebilir. Hizmet için herhangi bir satın alma işlemi yapıldıktan ve ödeme tamamlandıktan sonra, ödenen herhangi bir miktarın iadesi yasaktır. Ödemelerin platformun teknik destek ekibi aracılığıyla yapıldığından emin olun ve herhangi bir dış tarafa ödeme yapmayın."
+
 }

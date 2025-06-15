@@ -9,6 +9,7 @@ import './App.css';
 import LandingPage from './guest/landing/index';
 import Signin from './guest/login'
 import Register from './guest/register'
+import PrivatePolicy from './guest/privatePolicy' 
 
 import NavBar from './components/navbar/index'
 import Footer from './components/footer'
@@ -70,6 +71,7 @@ function App() {
                   <Route path="/" element={<LandingPage />} />
                   <Route path="login" element={<Signin />} />
                   <Route path="register" element={<Register />} />
+                  <Route path="privacy-policy" element={<PrivatePolicy />} />
 
                   
                   {/* <Route path="admin" element={<AdminApp />} >

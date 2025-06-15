@@ -27,12 +27,12 @@ export default function App(){
 
     const downloadFiles = () => {
         window.open("https://almonazim.com/المنظم.apk", '_blank'); // فتح الرابط الأول
-    console.log(1)
-        // إضافة تأخير قبل فتح الرابط الثاني
-        setTimeout(() => {
-           window.open("https://almonazim.com/المنظم_فواتير.apk", '_blank'); // فتح الرابط الثاني
-           console.log(2)
-        }, 4000);
+    //  console.log(1)
+    //     // إضافة تأخير قبل فتح الرابط الثاني
+    //     setTimeout(() => {
+    //        window.open("https://almonazim.com/المنظم_فواتير.apk", '_blank'); // فتح الرابط الثاني
+    //        console.log(2)
+    //     }, 4000);
     };
     
     

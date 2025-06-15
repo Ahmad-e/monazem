@@ -39,5 +39,23 @@
     "un_have_acc": "If you do not have an account, you can go to",
     "our_services": "Our Services",
 
-    "err_IOS":"The application is currently not available on iOS. "
+    "err_IOS":"The application is currently not available on iOS. ",
+
+
+    "private_policy": "Privacy Policy",
+    "private_policy_text": "In Monazim, we are committed to protecting your privacy and personal data. This privacy policy aims to inform you about how we collect, use, and protect the information you provide when using our platform.",
+    "private_policy_p_1": "The information we collect",
+    "private_policy_text_1": "When you use the platform, we collect personal information such as your name, email address, and phone number, as well as financial information such as account details and financial transactions.",
+    "private_policy_p_2": "How we use the information",
+    "private_policy_text_2": "We use the information we collect to provide our services and improve your experience, to send updates about your account or our services, and to analyze usage and improve the platform. We do not share data with third parties.",
+    "private_policy_p_3": "Data protection",
+    "private_policy_text_3": "We take the security of your data seriously. We use advanced security technologies to protect your information from unauthorized access or misuse.",
+    "private_policy_p_4": "Sharing information",
+    "private_policy_text_4": "We will not share your personal information with any third party without your consent, except in cases required by applicable laws or to protect our rights.",
+    "private_policy_p_5": "Your rights",
+    "private_policy_text_5": "You have the right to access your personal information and correct or delete it at any time. You can contact us to exercise these rights.",
+    "private_policy_p_6": "What is prohibited to enter into Al Monazim",
+    "private_policy_text_6": "It is prohibited to store and input data, texts, and values that express usurious transactions or services or products that are immoral or violate Islamic law or the law, under the penalty of banning the user from the platform, prohibiting their subscription, and preventing them from using the site.",
+    "private_policy_p_7": "About electronic payment",
+    "private_policy_text_7": "Each user is granted a temporary free trial with limited features, and our paid services can be purchased by contacting technical support. After making any purchase for the service and completing the payment, refunds for any paid amounts are prohibited. Ensure that payments are made through the technical support team of the platform and do not make payments to any external party."
 }
