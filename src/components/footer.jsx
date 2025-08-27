@@ -16,7 +16,7 @@ export default function App(){
 
 
       const downloadFiles = () => {
-        window.open("https://almonazim.com/المنظم.apk", '_blank'); // فتح الرابط الأول
+        window.open("https://play.google.com/store/apps/details?id=com.almonazim", '_blank'); // فتح الرابط الأول
     };
 
     const phoneNumber = '+963993753015';
@@ -45,19 +45,26 @@ export default function App(){
                         <div className='text-2xl pt-2'>
                         {t("download_app_now")}
                         </div>
-                        <div class="flex justify-center my-10">
-                            <div onClick={()=>downloadFiles() } class="border-app flex items-center border w-auto rounded-lg px-4 py-2 w-52 mx-2">
+                        <div class=" my-10 mobile_fotter">
+                            <div onClick={()=>window.open("https://play.google.com/store/apps/details?id=com.almonazim", '_blank') } class="border-app flex items-center border w-auto rounded-lg px-4 py-2 w-52 mx-2">
                                 <img src="https://cdn-icons-png.flaticon.com/512/888/888857.png" class="w-7 md:w-8" />
                                 <div class="text-left ml-3">
                                     <p class='text-xs text-gray-900'>Download on </p>
                                     <p class="text-sm md:text-base"> Google Play Store </p>
                                 </div>
                             </div>
-                            <div  onClick={()=>warning()} className="border-app flex items-center border border-gray-900 w-auto rounded-lg px-4 py-2 w-44 mx-2">
+                            <div onClick={()=>window.open("https://apps.apple.com/iq/app/almonazim-%D8%A7%D9%84%D9%85%D9%86%D8%B8%D9%85/id6751020021", '_blank') } className="border-app flex items-center border border-gray-900 w-auto rounded-lg px-4 py-2 w-44 mx-2">
                                 <img src="https://cdn-icons-png.flaticon.com/512/888/888841.png" class="w-7 md:w-8" />
                                 <div  class="text-left ml-3">
                                     <p class='text-xs text-gray-900'>Download on </p>
                                     <p class="text-sm md:text-base"> Apple Store </p>
+                                </div>
+                            </div>
+                            <div  onClick={()=>window.open("https://almonazim.com/المنظم.exe", '_blank')} className="border-app flex items-center border border-gray-900 w-auto rounded-lg px-4 py-2 w-44 mx-2">
+                                <img src="https://img.icons8.com/color/48/windows-10.png" alt="windows-10" class="w-7 md:w-8" />
+                                <div  class="text-left ml-3">
+                                    <p class='text-xs text-gray-900'>Download for </p>
+                                    <p class="text-sm md:text-base"> windows </p>
                                 </div>
                             </div>
                         </div>
@@ -74,7 +81,7 @@ export default function App(){
 
                         <div>
                         <div class="shareArticle flex justify-center mt-3">
-                            {/* socia media */}
+                            
                             <div class="shareSocial">
                                 <ul class="socialList">
                                     <li>
@@ -110,12 +117,12 @@ export default function App(){
                             </div>
                             </div>
                         </div>
-                        
+                         
                     </div>
                     <div id="Contact_us" class="mt-4 flex flex-col md:flex-row md:justify-between items-center text-sm text-gray-800">
                         <p class="order-2 md:order-1 mt-8 md:mt-0"> &copy; Al Monazim, 2025. </p>
                         <div class="order-1 md:order-2">
-                            <span class="px-2">About us</span>
+                            <a href='plans' class="px-2 ">Prices</a>
                             <span class="px-2 border-l">Contact us</span>
                             <a href="/privacy-policy" class="px-2 border-l">Privacy Policy</a>
                         </div>

@@ -5,12 +5,11 @@ const modeSlice = createSlice({
     name: "mode",
     initialState: {
         mode: (Cookies.get("color_mode") ? (Cookies.get("color_mode")) : "light" ),
-        language: (Cookies.get("lang_mode") ? (Cookies.get("lang_mode")) :"En" ),
+        language: (Cookies.get("lang_mode") ? (Cookies.get("lang_mode")) :"Ar" ),
         token: Cookies.get("token_drop"),
         account: Cookies.get("acc_num_drop"),
         id: Cookies.get("iD_drop"),
         apiURL:"https://api.familydroop.com/api/",
-        
     },
     reducers: {
         toggleMode : (state)=>{

@@ -14,6 +14,7 @@ import Support from '../../SVGs/support';
 import IMG1 from '../../images/1.png';
 import IMG2 from '../../images/3.png';
 import IMG3 from '../../images/2.png';
+import Responsev from '../../images/responsev.png';
 
 import {  useSelector } from 'react-redux';
 import { Carousel } from 'antd';
@@ -48,21 +49,20 @@ export default function App(){
                             {t("text_landing_1")}
                         </p>
                         <p className='text-xl pb-4'>
-                            {t("text_landing_2")}
+                            {/* {t("text_landing_2")} */}
+                            {t('text_landing_2')}
                         </p>
                         <div>
-                            <Button onClick={downloadFiles} text={t("download_app_now")} />
-                        
+                            <Button href="#Contact_us" text={t("download_app_now")} />
                         </div>
                     </div>
                 </Col>
                 <Col lg={8} md={6} sm={12} className='flex justify-center'>
                     <SVG />
                 </Col>
-                
             </Row>
             <Row className={'justify-center py-5 '+mode+"_svg"}>
-                <Col lg={4} md={10} sm={12}  >
+                <Col lg={4} md={10} sm={12} className='py-3' >
                     <div className='landing-card'>
                         <p className='text-start px-3'>
                             <div className='text-2xl'>
@@ -78,7 +78,7 @@ export default function App(){
                         
                     </div>
                 </Col>
-                <Col  lg={4} md={10} sm={12}  >
+                <Col  lg={4} md={10} sm={12} className='py-3' >
                     <div className='landing-card'>
                         <p className='text-start px-3'>
                             <div className='text-2xl'>
@@ -94,7 +94,7 @@ export default function App(){
                         
                     </div>
                 </Col>
-                <Col  lg={4} md={10} sm={12}  >
+                <Col  lg={4} md={10} sm={12} className='py-3' >
                     <div className='landing-card'>
                         <p className='text-start px-3'>
                             <div className='text-2xl'>
@@ -110,6 +110,15 @@ export default function App(){
                         
                     </div>
                 </Col>
+            </Row>
+
+            <Row className='justify-center py-5 '>
+                <p className="text-4xl font-bold main_color pb-5 "> {t("text_access")} </p>
+                
+                <img className='responsev_img' src={Responsev} />
+                <p className="text-xl font-bold" > {t("can_use")} </p>
+                <p className="text-xl font-bold pb-5" > {t("just_sign_in")} </p>
+                <hr className='hr-index' />
             </Row>
             
             <Row className='justify-center py-10 pb-24'>

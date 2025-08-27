@@ -227,3 +227,19 @@
     transform: scale(1.1 ) translateY(-5px);
     box-shadow: 0 4px 8px 0 rgba(98, 98, 98, 0.29), 0 6px 20px 0 rgba(98, 98, 98, 0.29);
   }
+
+.mobile_fotter{
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 570px) {
+  .mobile_fotter{
+    display: inline-block;
+    padding: 0px 30px;
+  }
+  .mobile_fotter .flex{
+    margin: 30px;
+    max-width: 200px;
+  }
+}

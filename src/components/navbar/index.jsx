@@ -28,7 +28,7 @@ function OffcanvasExample() {
     <>
         <Navbar bg={mode} data-bs-theme={mode} key={expand} expand={expand} className="bg-body-tertiary " dir={lang==="Ar" ? ("rtl") :("ltr") } >
           <Container fluid>
-            <Navbar.Brand href="#">
+            <Navbar.Brand href="/">
               <img src={LOGO} className='logo_img' />
             </Navbar.Brand>
 
@@ -55,6 +55,11 @@ function OffcanvasExample() {
                 <Nav.Link href='privacy-policy' className={lang+ " px-3 pt-2.5"}>
                   {t("private_policy")} 
                 </Nav.Link>
+
+                <Nav.Link href='plans' className={lang+ " px-3 pt-2.5"}>
+                  {t("plans")} 
+                </Nav.Link>
+
               </Nav>
                             
                 <Setting />
